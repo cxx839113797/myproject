@@ -2,7 +2,9 @@
 # @Time  : 2019/5/9 21:46
 # @Author: xiaoxiao
 # @File  : run.py
+import sys
 
+sys.path.append("./")
 import unittest
 from common import contants
 import HTMLTestRunnerNew
