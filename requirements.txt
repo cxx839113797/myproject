@@ -1,0 +1,15 @@
+certifi==2018.4.16
+chardet==3.0.4
+ddt==1.2.1
+et-xmlfile==1.0.1
+idna==2.7
+jdcal==1.4
+openpyxl==2.6.1
+pipenv==2018.7.1
+PyMySQL==0.9.3
+requests==2.19.1
+selenium==3.141.0
+suds-jurko==0.6
+urllib3==1.23
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
