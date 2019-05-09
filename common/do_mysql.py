@@ -27,12 +27,7 @@ class DoMysql:
 if __name__ == '__main__':
     import datetime
     mysql=DoMysql()
-    sql="SELECT * FROM sms_db_53.t_mvcode_info_6 WHERE Fmobile_no='13214164653'"
+    sql='SELECT Fuid FROM user_db.t_user_info WHERE Fuser_id="haha100010515"'
     result=mysql.fetchOne(sql)
     print(result)
-    if result['Fsend_time']<result['Fexpired_time']:
-        print("ok")
-    if result['Fsend_time']<datetime.datetime.now():
-        print(datetime.datetime.now())
-    print(str(result['Fexpired_time']-result['Fsend_time'])=="0:06:00")
-    mysql.close()
+

@@ -11,4 +11,6 @@ global_dir=os.path.join(base_dir,"config","global.conf")
 online_dir=os.path.join(base_dir,"config","online.conf")
 test_dir=os.path.join(base_dir,"config","test.conf")
 log_dir=os.path.join(base_dir,"log")
+report_dir=os.path.join(base_dir,"report")
+case_dir=os.path.join(base_dir,"testcase")
 
