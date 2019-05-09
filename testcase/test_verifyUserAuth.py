@@ -51,7 +51,7 @@ class verifyUserAuth(unittest.TestCase):
         case.url=config.get("pre_url","pre_url")+case.url
         log.debug("测试URL：{}".format(case.url))
         log.debug("请求参数：{}".format(case.data))
-        webservice=Client(case.url)
+        webservice=Client(case.url,cache=None)
         try:
             try:
                 if case.title == "正常发送验证码":
